@@ -35,7 +35,7 @@ body {
     background-image: url(../images/pexels-brettjordan-825661.jpg);
     background-size: 600px 600px;
     background-clip: border-box;
-    min-height: 600px;
+    min-height: 400px;
     text-align: center;
     padding-top: 200px;
 }
