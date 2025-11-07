@@ -1,8 +1,7 @@
 @charset "utf-8";
 body {
     background-image: url(../images/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 .main-content {
     margin-top: 300px;
