@@ -1,7 +1,9 @@
 @charset "utf-8";
 body {
     background-image: url(../images/background.png);
-    background-size: contain;
+    background-size: auto auto;
+    background-repeat: repeat;
+    border-width: thick;
 }
 .main-content {
     margin-top: 300px;
@@ -14,7 +16,9 @@ body {
     font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
     font-style: normal;
     font-weight: normal;
+    border-radius: 30;
     text-align: center;
+    background-color: #FF0004;
 }
 .main-content h2 {
     color: #FF0004;
@@ -38,4 +42,13 @@ body {
     min-height: 400px;
     text-align: center;
     padding-top: 200px;
+}
+body ol {
+    color: #0C7700;
+    border-radius: 25px;
+    background-color: #000000;
+}
+body p {
+    border-radius: 30;
+    background-color: #000000;
 }
