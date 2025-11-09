@@ -43,12 +43,16 @@ body {
     text-align: center;
     padding-top: 200px;
 }
-body ol {
-    color: #0C7700;
-    border-radius: 25px;
+body p {
+    border-radius: 30px;
+    padding: 10px;
     background-color: #000000;
 }
-body p {
-    border-radius: 30;
+body ol {
+    border-radius: 30px;
     background-color: #000000;
+    color: #004610;
+}
+body ol li {
+    padding: 5px;
 }
